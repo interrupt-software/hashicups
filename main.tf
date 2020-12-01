@@ -10,11 +10,11 @@ terraform {
 provider "hashicups" {}
 
 module "psl" {
-  source = "github.com/interrupt-software/custom/coffee"
-
+  source      = "app.terraform.io/interrupt-software/coffee/hashicup"
+  version     = "0.2.0"
   coffee_name = "Packer Spiced Latte"
 }
 
-output "psl" {
+output "coffee" {
   value = module.psl.coffee
 }
