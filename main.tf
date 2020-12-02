@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     hashicups = {
-      source  = "interrupt-software/eng/hashicups"
-      version = ">= 0.2.0"
+      source  = "interrupt-software/seng/hashicups"
+      version = "0.2.0"
     }
   }
 }
