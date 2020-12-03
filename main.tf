@@ -12,7 +12,7 @@ provider "hashicups" {}
 # module "psl" {
 #   source      = "app.terraform.io/interrupt-software/hashicups/provider"
 #   version     = "0.2.0"
-#   coffee_name = "Packer Spiced Latte"
+#   coffee_name = "Packer Spiced latte"
 # }
 #
 # output "coffee" {
