@@ -21,7 +21,7 @@ provider "hashicups" {}
 
 variable "coffee_name" {
   type    = string
-  default = "Vagrante espresso"
+  default = "Vagrante Espresso"
 }
 
 data "hashicups_coffees" "all" {}
