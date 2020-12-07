@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     hashicups = {
-      source  = "interrupt-software/seng/hashicups"
+      source  = "interrupt-software.s3.amazonaws.com/seng/hashicups"
       version = "0.2.0"
     }
   }
